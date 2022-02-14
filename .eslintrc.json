@@ -1,0 +1,11 @@
+{
+  "extends": ["react-app", "react-app/jest"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["simple-import-sort", "@typescript-eslint"],
+  "rules": {
+    "simple-import-sort/imports": "warn",
+    "simple-import-sort/exports": "warn",
+    "quotes": ["warn", "single"],
+    "semi": ["warn", "never"]
+  }
+}
